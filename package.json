@@ -1,0 +1,24 @@
+{
+    "name": "practica-clase",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "MacarenaCavieres",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "jimp": "^0.22.12",
+        "nanoid": "^5.0.7",
+        "nodemailer": "^6.9.13"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
